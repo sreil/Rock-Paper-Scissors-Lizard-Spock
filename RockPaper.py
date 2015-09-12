@@ -40,16 +40,13 @@ def number_to_name(number):
 
 def rpsls(player_choice): 
 
-	player = name_to_number(name)
-	computer = random.randrage(0, 5)
+	print "The player chooses: ", player_choice
+	player = name_to_number(player_choice)
+	computer = random.randrange(0, 5)
 
 	print(' ') #print out a blank line
 
-	print "The player chooses: ", player_choice
-
-	print(' ')
-
-	print "The computer chooses: ". 
+	print "The computer chooses: ", number_to_name(computer)
 
 
 rpsls("rock")
