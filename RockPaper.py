@@ -48,52 +48,52 @@ def rpsls(player_choice):
 
 	print "The computer chooses: ", number_to_name(computer)
 
-	if player == 0 and computer == 1
-		print 
-	elif player == 0 and computer == 2
-		print 
-	elif player == 0 and computer == 3
+	if player == 0 and computer == 1:
+		print "Computer wins!"
+	elif player == 0 and computer == 2:
+		print "Computer wins!"
+	elif player == 0 and computer == 3:
 		print "Player wins!"
-	elif player == 0 and computer == 4
-		print "Player wins!"
-
-	elif player == 1 and computer == 0
-		print "Player wins!"
-	elif player == 1 and computer == 2
-		print 
-	elif player == 1 and computer == 3
-		print 
-	elif player == 1 and computer == 4
+	elif player == 0 and computer == 4:
 		print "Player wins!"
 
-	elif player == 2 and computer == 0
+	elif player == 1 and computer == 0:
 		print "Player wins!"
-	elif player == 2 and computer == 1
-		print "Player wins!"
-	elif player == 2 and computer == 3
-		print 
-	elif player == 2 and computer == 4
-		print 
-
-	elif player == 3 and computer == 0
-		print 
-	elif player == 3 and computer == 1
-		print "Player wins!"
-	elif player == 3 and computer == 2
-		print "Player wins!"
-	elif player == 3 and computer == 4
-		print 
-
-	elif player == 4 and computer == 0
-		print 
-	elif player == 4 and computer == 1
-		print 
-	elif player == 4 and computer == 2
-		print "Player wins!"
-	elif player == 4 and computer == 3
+	elif player == 1 and computer == 2:
+		print "Computer wins!"
+	elif player == 1 and computer == 3:
+		print "Computer wins!"
+	elif player == 1 and computer == 4:
 		print "Player wins!"
 
-	elif player == computer
+	elif player == 2 and computer == 0:
+		print "Player wins!"
+	elif player == 2 and computer == 1:
+		print "Player wins!"
+	elif player == 2 and computer == 3:
+		print "Computer wins!"
+	elif player == 2 and computer == 4:
+		print "Computer wins!"
+
+	elif player == 3 and computer == 0:
+		print "Computer wins!"
+	elif player == 3 and computer == 1:
+		print "Player wins!"
+	elif player == 3 and computer == 2:
+		print "Player wins!"
+	elif player == 3 and computer == 4:
+		print "Computer wins!"
+
+	elif player == 4 and computer == 0:
+		print "Computer wins!"
+	elif player == 4 and computer == 1:
+		print "Computer wins!"
+	elif player == 4 and computer == 2:
+		print "Player wins!"
+	elif player == 4 and computer == 3:
+		print "Player wins!"
+
+	elif player == computer:
 		print "Tie game!" 
 
 rpsls("rock")
