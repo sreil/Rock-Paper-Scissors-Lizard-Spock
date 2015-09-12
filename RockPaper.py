@@ -53,23 +53,23 @@ def rpsls(player_choice):
 	elif player == 0 and computer == 2
 		print 
 	elif player == 0 and computer == 3
-		print 
+		print "Player wins!"
 	elif player == 0 and computer == 4
-		print 	
+		print "Player wins!"
 
 	elif player == 1 and computer == 0
-		print 
+		print "Player wins!"
 	elif player == 1 and computer == 2
 		print 
 	elif player == 1 and computer == 3
 		print 
 	elif player == 1 and computer == 4
-		print 
+		print "Player wins!"
 
 	elif player == 2 and computer == 0
-		print 
+		print "Player wins!"
 	elif player == 2 and computer == 1
-		print 
+		print "Player wins!"
 	elif player == 2 and computer == 3
 		print 
 	elif player == 2 and computer == 4
@@ -78,9 +78,9 @@ def rpsls(player_choice):
 	elif player == 3 and computer == 0
 		print 
 	elif player == 3 and computer == 1
-		print 
+		print "Player wins!"
 	elif player == 3 and computer == 2
-		print 
+		print "Player wins!"
 	elif player == 3 and computer == 4
 		print 
 
@@ -89,9 +89,9 @@ def rpsls(player_choice):
 	elif player == 4 and computer == 1
 		print 
 	elif player == 4 and computer == 2
-		print 
+		print "Player wins!"
 	elif player == 4 and computer == 3
-		print
+		print "Player wins!"
 
 	elif player == computer
 		print "Tie game!" 
