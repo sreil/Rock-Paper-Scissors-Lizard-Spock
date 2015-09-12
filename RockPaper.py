@@ -11,9 +11,9 @@
 # lizard beats spock and paper
 # spock beats scissors and rock
 
-import random
+import random #to generate random numbers below
 
-def name_to_number(name):
+def name_to_number(name): #converts a string to a number
 	if name == "rock":
 		return 0
 	elif name == "Spock":
@@ -26,7 +26,7 @@ def name_to_number(name):
 		return 4
 
 
-def number_to_name(number):
+def number_to_name(number): #converts a number to a string
 	if number == 0:
 		return "rock"
 	elif number == 1:
