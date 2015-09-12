@@ -11,3 +11,16 @@
 # lizard beats spock and paper
 # spock beats scissors and rock
 
+def name_to_number(name):
+
+
+def number_to_name(number):
+    
+
+def rpsls(player_choice): 
+
+rpsls("rock")
+rpsls("Spock")
+rpsls("paper")
+rpsls("lizard")
+rpsls("scissors")
