@@ -11,6 +11,8 @@
 # lizard beats spock and paper
 # spock beats scissors and rock
 
+import random
+
 def name_to_number(name):
 	if name == "rock":
 		return 0
@@ -35,8 +37,20 @@ def number_to_name(number):
 		return "lizard"
 	elif number == 4:
 		return "scissors"
-		
+
 def rpsls(player_choice): 
+
+	player = name_to_number(name)
+	computer = random.randrage(0, 5)
+
+	print(' ') #print out a blank line
+
+	print "The player chooses: ", player_choice
+
+	print(' ')
+
+	print "The computer chooses: ". 
+
 
 rpsls("rock")
 rpsls("Spock")
